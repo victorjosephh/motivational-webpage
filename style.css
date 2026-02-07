@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0b0b0b;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.section1 {
+    background-image: url("./image7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-color: #0b0b0b;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 85%;
+    align-items: center;
+}
+h1 {
+    font-style: italic;
+    color: white;
+}
+a {
+    display: inline-block;
+    padding: 8px;
+    width: 300px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 6px;
+    background: white;
+    margin-bottom: 10px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+a:hover {color: white;}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.section2 {
+    max-height: 100%;
+    padding: 10px;
+    background-color: #0b0b0b;
+    color: white;
+    align-items: center;
+}
+ .motivational-box {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 45px;
+        }
+        .poster-text {
+            max-width: 400px;
+            padding: 5px;
+    }
+        .poster-text img {
+            width: 100%;
+        }
+        .last-text {
+            font-style: italic;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 45px;
+        }
+        h2 {
+            font-family: 'Montserrat' , sans-serif;
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+@media (max-width:680px) {
+    .headline {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 85%;
+    
+    }
+    .poster-text  {
+                max-width: 100%;
+            }
+            h1 {font-size: 1.6rem;}
+            h2 {font-size: 1.2rem;}
+            p {font-size: 1rem;}
+            footer {font-size: 1rem;
+            opacity: 0.5;}
+            
+}
