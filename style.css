@@ -68,13 +68,14 @@ p {
         }
         .poster-text {
             max-width: 400px;
-            padding: 5px;
+            padding: 8px;
     }
         .poster-text img {
             width: 100%;
         }
         .last-text {
             font-style: italic;
+            font-size: 0.8rem;
         }
         footer {
             background-color: black;
@@ -100,12 +101,11 @@ p {
     
     }
     .poster-text  {
-                max-width: 100%;
-            }
+                max-width: 100%;          }
             h1 {font-size: 1.6rem;}
-            h2 {font-size: 1.2rem;}
+            h2 {font-size: 1.5rem;}
             p {font-size: 1rem;}
-            footer {font-size: 1rem;
+            footer {
             opacity: 0.5;}
             
 }
